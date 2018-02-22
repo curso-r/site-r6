@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>R Seis</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
+
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/logo.png" alt="Homepage">
+            </a>
+        </div>
+
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Fechar</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navegação</h3>
+
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Início</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">Sobre</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">Serviços</a></li>
+                    <li><a class="smoothscroll"  href="#works" title="works">Trabalhos</a></li>
+                    <li><a class="smoothscroll"  href="#clients" title="clients">Time</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contato</a></li>
+                </ul>
+
+                <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
+
+                <!-- <ul class="header-nav__social">
+                    <li>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-behance"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa fa-dribbble"></i></a>
+                    </li>
+                </ul> -->
+
+            </div> <!-- end header-nav__content -->
+
+        </nav>  <!-- end header-nav -->
+
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
+
+    </header> <!-- end s-header -->
+
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Seja Bem-Vindo</h3>
+
+                <h1>
+                    Nós somos a R Seis, uma<br>
+                    empresa de consultoria e<br>
+                    treinamentos em estatística <br>
+                    e na linguagem R.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                        Entre Em Contato
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        Mais Sobre Nós
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Continue Por Aqui</span>
+                </a>
+            </div> -->
+
+            <!-- <div class="home-content__line"></div> -->
+
+        </div> <!-- end home-content -->
+
+
+        <!-- <ul class="home-social">
+            <li>
+                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+            </li>
+            <li>
+                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
+            </li>
+        </ul> -->
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Sobre Nós</h3>
+                <h1 class="display-1 display-1--light">Somos Todos R Seis</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>
+                Desde o seu nascimento quando ainda se chamava Curso-R, a missão da R Seis sempre foi oferecer treinamentos completos e de qualidade sobre ciência de dados, estatística e, principalmente, a linguagem R de programação. Depois de um ano nós crescemos e mudamos de nome, mas os nossos princípios não mudaram. Se você precisa de treinamentos ou consultorias na área de data science, pode contar conosco.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">15</div>
+                <h5>Cursos Oferecidos</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">322</div>
+                <h5>Alunos Satisfeitos</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">6</div>
+                <h5>Projetos Realizados</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">37</div>
+                <h5>Posts Escritos</h5>
+            </div>
+
+        </div> <!-- end about-stats -->
+
+        <!-- <div class="about__line"></div> -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">O Que Fazemos</h3>
+                <h1 class="display-2">Cursos in-company, consultorias especializadas e muito mais</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-at"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Consultoria</h3>
+                    <p>Nosso time composto de estatísticos e computólogos, doutorandos, mestrandos e bacharéis
+                    não poderia ser mais completo. Se você tiver um desafio e precisa de profissionais para ajudá-lo,
+                    não precisa mais procurar porque você os encontrou.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-education"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Cursos In-Company</h3>
+                    <p>Se seu time estiver precisando de um treinamento expresso ou mesmo aprofundado sobre alguma
+                    tecnologia relacionada a R ou algum conceito teórico da ciência de dados, não se preocupe. Depois
+                    de alguns anos ministrando cursos sobre esses assuntos, não há professores melhores.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-earth"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Dashboards</h3>
+                    <p>Usando um framework open source para R chamado Shiny, podemos fazer dashboards ricos e
+                    interativos sem precisar de nenhuma licença paga. Você também pode deixar esses dashboards
+                    em um servidor e disponibilizá-los para quem você quiser.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-block"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Quebra de Captchas</h3>
+                    <p>Usando técnicas de ponta como deep learning, somos capazes de criar modelos para
+                    quebrar praticamente qualquer captcha estático. Encapsulamos esse modelo e você
+                    pode acessá-lo por uma interface de API extremamente simples.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Criação de Pacotes</h3>
+                    <p>Com anos de experiência na criação de pacotes R, podemos transformar uma solução de
+                    programação em um pacote compartilhavel e reprodutível que você tem a liberdade de
+                    dividir com todo o seu time sem se preocupar com mais nada.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                  <i class="icon-chat"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Você Decide</h3>
+                    <p>Se você precisar de algum produto, serviço ou solução que não listamos aqui, entre em
+                    contato porque talvez possamos ajudar. Com nosso skillset diversificado e amor por desafios,
+                    é provável que consigamos ajudar.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+    <section id='works' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Os Projetos</h3>
+                <h1 class="display-1 display-1--light">O Que Já Fizemos </h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>Clique em qualquer um dos links abaixo para saber mais sobre os projetos que desenvolvemos ao longo do tempo. Além de sermos autores de um dos maiores blogs de ciência de dados no Brasil, também criamos uma comunidade extremamente engajada no Facebook ao redor dos nossos posts. Também disponibilizamos os materiais utilizados no "Curso de Verão IME-USP 2018" e um conjunto de artigos introdutórios da linguagem R.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+
+            <div class="col-block stats__col ">
+                <div class="stats__nocount"><a href="http://curso-r.com/blog/">Curso-R</a></div>
+                <h5>O Blog da Curso-R</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__nocount"><a href="https://www.facebook.com/cursodeR/">Face</a></div>
+                <h5>Nossa Página no Facebook</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__nocount"><a href="https://github.com/curso-r/201801-r-para-ciencia-de-dados">Verão</a></div>
+                <h5>Curso de Verão IME-USP</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__nocount"><a href="http://material.curso-r.com/">Material</a></div>
+                <h5>Nosso Material Introdutório</h5>
+            </div>
+
+        </div> <!-- end about-stats -->
+
+        <!-- <div class="about__line"></div> -->
+
+    </section> <!-- end s-about -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Nosso Time</h3>
+                <h1 class="display-2">Conheça um pouco mais sobre quem somos e de onde viemos</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <!-- <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/apple.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/atom.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/blackberry.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/dropbox.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/envato.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/firefox.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/joomla.png" /></a>
+                    <a href="#0" title="" class="clients__slide"><img src="images/clients/magento.png" /></a> -->
+
+                <!-- </div> <!-- end clients -->
+            <!-- </div> <!-- end col-full -->
+        <!-- </div> <!-- end clients-outer -->
+
+        <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+
+                    <div class="testimonials__slide">
+
+                        <p>Bacharel em Estatística pelo IME-USP. Trabalhou com modelos preditivos, extração de dados da internet e
+                        visualização/dashboards para ABJ, IBOPE, ClearSale, EDP e atualmente é cientista de dados no Itaú. Se
+                        interessa por tudo ligado ao R e à estatística. Ama sua cachorrinha Ozzy.</p>
+
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Athos Damiani</span>
+                            <span class="testimonials__pos">Estatístico pelo IME-USP, Nãrd e apaixonado por R</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+
+                        <p>Bacharelando em Ciência da Computação com foco em Inteligência Artificial pelo IME-USP e estagiário na
+                          Platipus Consultoria. Programador desde os 15 anos, começou a se apaixonar pelo R em 2016 e agora não fala
+                          em outra coisa. Metido a designer, maníaco da organização e metade texano.</p>
+
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Caio Lente</span>
+                            <span class="testimonials__pos">Programador, viciado em R e aspirante a cientista de dados</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+
+                        <p>Bacharel em Estatística pelo IME. Trabalha diariamente com R há mais de 4 anos. É interessado por tudo que
+                          tem a ver com R, Machine Learning e Estatística.</p>
+
+                        <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Daniel Falbel</span>
+                            <span class="testimonials__pos">Bacharel em Estatística, trabalhando diariamente com R há mais de 4 anos</span>
+                        </div>
+                    </div>
+
+                    <div class="testimonials__slide">
+
+                        <p>Bacharel e mestrando em Estatística pelo IME-USP. Diretor-técnico na Associação Brasileira de Jurimetria.
+                          Usa R para tudo, mas tem interesse especial em web scraping, visualização de dados e modelagem bayesiana. </p>
+
+                        <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Fernando Corrêa</span>
+                            <span class="testimonials__pos">Nerd, Estatístico e mágico; me apaixonei por R à primeira vista</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+
+                        <p>Bacharel, mestre e doutorando em Estatística pelo IME-USP. Secretário-geral da Associação Brasileira de
+                          Jurimetria (ABJ). Vice-presidente do CONRE-3a Região. Sócio da Platipus Consultoria em inteligência jurídica e
+                          analytics. Sócio da Curso-R treinamentos e consultoria - Trabalha com web scraping, consolidação de dados,
+                          visualização e modelagem, construindo modelos preditivos, APIs, pacotes em R e dashboards em Shiny. Coordenador
+                          e ministrante de diversos cursos sobre R, ciência de dados e jurimetria. É tão nerd que convence todos seus
+                          amigos a mexerem no R e fazerem estatística.</p>
+
+                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Julio Trecenti</span>
+                            <span class="testimonials__pos">Doutorando em Estatística, Secretário-geral da Associação Brasileira de Jurimetria, Vice-presidente do CONRE - 3a Região</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+
+                        <p>Bacharel, mestre e doutorando em Estatística pelo IME-USP. Áreas de pesquisa: análise de sobrevivência,
+                          modelos mistos, modelos longitudinais, modelos lineares generalizados, modelos aditivos generalizados e programação
+                          em R. Projetos de pesquisa: Etanol e a qualidade do ar na RMSP; e desenvolvimento de pacotes em R. Ministrante do
+                          curso "Introdução à análise explanatória e métodos estatísticos" do Programa de Verão IME-USP, 2016 e 2017. Ministrante
+                          do curso "R: do casual ao avançado" do Programa de Verão do IME-USP, 2015 a 2017. Escritor nas horas vagas… ou o contrário.</p>
+
+                        <img src="images/avatars/user-06.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">William Amorim</span>
+                            <span class="testimonials__pos">Doutorando em Estatística e programador em R</span>
+                        </div>
+
+                    </div>
+
+                </div><!-- end testimonials -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end client-testimonials -->
+
+    </section> <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Fale com a Gente</h3>
+                <h1 class="display-2 display-2--light">Se quiser entrar em contato conosco, estamos à disposição</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+
+            <div class="contact-primary">
+
+                <h3 class="h6">Envie uma Mensagem</h3>
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Seu Nome" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Seu Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Assunto" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Mensagem" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Enviar</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Enviando...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Algo deu errado. Por favor tente novamente.
+                </div>
+
+                <!-- contact-success -->
+                <div class="message-success">
+                    Sua mensagem foi enviada!<br>
+                </div>
+
+            </div> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Informação</h3>
+
+                    <div class="cinfo">
+                        <h5>Endereço</h5>
+                        <p>
+                            Rua dos Bobos, 0000<br>
+                            São Paulo, SP, Brasil<br>
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Emails de Contato</h5>
+                        <p>
+                            contato@curso-r.com<br>
+                            negocios@curso-r.com
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Links Relevantes</h5>
+                        <p style="margin-bottom:0"><a href="http://curso-r.com/blog/">Blog Curso-R</a></p>
+                        <p style="margin-bottom:0"><a href="https://www.facebook.com/cursodeR/">Página Facebook</a></p>
+                        <p style="margin-bottom:0"><a href="http://github.com/curso-r/">Nosso GitHub</a></p>
+                        <p style="margin-bottom:0"><a href="http://material.curso-r.com/">Material Introdutório</a></p>
+                        </p>
+                    </div>
+
+                    <!-- <ul class="contact-social">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+
+        <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <div class="footer-logo"></div>
+                A R Seis é uma empresa feita por cinco estatísticos e um computólogo com o objetivo de ensinar e divulgar a estatística, a ciência de dados e a linguagem R de programação. Se quiser saber mais entre em contato conosco pelo Facebook, pelo formulário acima ou se inscreva em nossa newsletter. Se quiser marcar uma conversa em pessoa conosco, basta mandar um email.
+
+            </div>
+
+            <div class="col-six tab-full right footer-subscribe">
+
+                <h4>Assine A Newsletter</h4>
+                <p>Se você quiser receber notícias dos nossos novos projetos e posts, deixe seu email aqui em baixo para participar da newsletter.</p>
+
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Seu Email" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div>
+
+            </div>
+
+        </div> <!-- end footer-main -->
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright R Seis 2018</span>
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
