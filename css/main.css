@@ -2237,7 +2237,7 @@ html.no-csstransitions .home-content__main {
     text-align: center;
     max-width: 1024px;
     color: white;
-  
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
 }
 
 
@@ -2274,7 +2274,7 @@ html.no-csstransitions .home-content__main {
 
 .stats__nocount {
     font-family: "montserrat-bold", sans-serif;
-    font-size: 6rem;
+    font-size: 5rem;
     line-height: 1;
     color: #ffffff;
     position: relative;
@@ -2836,6 +2836,7 @@ html.no-csstransitions .home-content__main {
 
 .clients-testimonials .testimonials__slide {
     padding: 0 0 3rem 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .clients-testimonials .testimonials__avatar {
@@ -3400,7 +3401,7 @@ footer .row {
  * ## footer main
  * --------------------------------------------------------------- */
 .footer-main {
-    text-align: left;
+    text-align: justify;
 }
 
 .footer-main .left {
